@@ -1,0 +1,71 @@
+
+html{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+.image{
+    opacity: 0.3;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle{
+    transition: 1.5s ease;
+    opacity: 1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    /*-ms-transform: translate(-50%, -50%);*/
+    text-align: center;
+}
+
+.container:hover .image{
+    opacity: 1;
+}
+
+.container:hover .middle{
+    opacity: 0;
+}
+
+.text{
+    background-color: orangered;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+
+/*Applies only to pictures in linked pages - not index*/
+#picture img{
+    width:100%;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color:white;
+    font-family: monospace;
+}
+
+ul li{
+    color:white;
+    font-family: monospace;
+}
+
