@@ -69,3 +69,24 @@ ul li{
     font-family: monospace;
 }
 
+#navi-bar{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#navi-bar a{
+    text-decoration: none;
+    color: white;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+#navi-bar a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
