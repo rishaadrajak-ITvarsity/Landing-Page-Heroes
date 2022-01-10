@@ -90,3 +90,37 @@ ul li{
     color: black;
     font-weight: bolder;
 }
+
+#contact{
+    text-align: center;
+    margin: 40px;
+}
+
+#contact input, #contact textarea{
+    text-align: center;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: large;
+}
+
+#contact input{
+    width: 80%;
+    padding: 2px;
+}
+
+#contact textarea{
+    width: 60%;
+    padding: 10px;
+}
+
+#contact .button{
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#contact .button:hover{
+    background-color: black;
+    border-color: white;
+    color: white;
+}
